@@ -1,0 +1,330 @@
+---
+
+#------------------------------------------------------------------------------
+# YAML Aliases to simplify maintenance
+
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+
+cells:
+  ETP:
+    dataRef: "kwh_data"
+    matchLabel: "ETP"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  MLDB:
+    dataRef: "kwh_data"
+    matchLabel: "MLDB"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Reactor Panel:
+    dataRef: "kwh_data"
+    matchLabel: "Reactor Panel"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS AHU:
+    dataRef: "kwh_data"
+    matchLabel: "FFS AHU"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS AHU/Ventilation:
+    dataRef: "kwh_data"
+    matchLabel: "FFS AHU/Ventilation"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Molding M/C:
+    dataRef: "kwh_data"
+    matchLabel: "Molding M/C"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Cream Packing Panel/:
+    dataRef: "kwh_data"
+    matchLabel: "Cream Packing Panel/"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  QC Lab:
+    dataRef: "kwh_data"
+    matchLabel: "QC Lab"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS 12 Track 1:
+    dataRef: "kwh_data"
+    matchLabel: "FFS 12 Track 1"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS 12 Track 2:
+    dataRef: "kwh_data"
+    matchLabel: "FFS 12 Track 2"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS 12 Track 3:
+    dataRef: "kwh_data"
+    matchLabel: "FFS 12 Track 3"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS 12 Track 4:
+    dataRef: "kwh_data"
+    matchLabel: "FFS 12 Track 4"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS 12 Track 5:
+    dataRef: "kwh_data"
+    matchLabel: "FFS 12 Track 5"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS 12 Track 6:
+    dataRef: "kwh_data"
+    matchLabel: "FFS 12 Track 6"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS 12 Track 7:
+    dataRef: "kwh_data"
+    matchLabel: "FFS 12 Track 7"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS 12 Track 8:
+    dataRef: "kwh_data"
+    matchLabel: "FFS 12 Track 8"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS 12 Track 9:
+    dataRef: "kwh_data"
+    matchLabel: "FFS 12 Track 9"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  FFS 12 Track 10:
+    dataRef: "kwh_data"
+    matchLabel: "FFS 12 Track 10"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Shampoo Packing Inco:
+    dataRef: "kwh_data"
+    matchLabel: "Shampoo Packing Inco"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Ventiliation:
+    dataRef: "kwh_data"
+    matchLabel: "Ventiliation"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Utility:
+    dataRef: "kwh_data"
+    matchLabel: "Utility"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  SLES Panel:
+    dataRef: "kwh_data"
+    matchLabel: "SLES Panel"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Chiller panel:
+    dataRef: "kwh_data"
+    matchLabel: "Chiller panel"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Water Panel:
+    dataRef: "kwh_data"
+    matchLabel: "Water Panel"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Dilution Plant:
+    dataRef: "kwh_data"
+    matchLabel: "Dilution Plant"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Wood Bailer 750 Ton:
+    dataRef: "kwh_data"
+    matchLabel: "Wood Bailer 750 Ton"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Compressor-3:
+    dataRef: "kwh_data"
+    matchLabel: "Compressor-3"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Compressor-1:
+    dataRef: "kwh_data"
+    matchLabel: "Compressor-1"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Admin:
+    dataRef: "kwh_data"
+    matchLabel: "Admin"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Talc AHU:
+    dataRef: "kwh_data"
+    matchLabel: "Talc AHU"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  BB TALC MFG:
+    dataRef: "kwh_data"
+    matchLabel: "BB TALC MFG"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Sleeving Line:
+    dataRef: "kwh_data"
+    matchLabel: "Sleeving Line"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Talc Packing line No:
+    dataRef: "kwh_data"
+    matchLabel: "Talc Packing line No"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Talc MFG:
+    dataRef: "kwh_data"
+    matchLabel: "Talc MFG"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Starpac Cream Line -:
+    dataRef: "kwh_data"
+    matchLabel: "Starpac Cream Line -"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Flowrap-1:
+    dataRef: "kwh_data"
+    matchLabel: "Flowrap-1"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Flowrap-2:
+    dataRef: "kwh_data"
+    matchLabel: "Flowrap-2"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Unit -2 Cream MFG:
+    dataRef: "kwh_data"
+    matchLabel: "Unit -2 Cream MFG"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Unit -2 Indica Mfg:
+    dataRef: "kwh_data"
+    matchLabel: "Unit -2 Indica Mfg"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Unit -2 Chiller 24 T:
+    dataRef: "kwh_data"
+    matchLabel: "Unit -2 Chiller 24 T"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Unit -2 Cream Main I:
+    dataRef: "kwh_data"
+    matchLabel: "Unit -2 Cream Main I"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Unit -2 Nitrogen Pla:
+    dataRef: "kwh_data"
+    matchLabel: "Unit -2 Nitrogen Pla"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Unit -2 Indica Powde:
+    dataRef: "kwh_data"
+    matchLabel: "Unit -2 Indica Powde"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Compressor-2:
+    dataRef: "kwh_data"
+    matchLabel: "Compressor-2"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
+
+  Main Incomer:
+    dataRef: "kwh_data"
+    matchLabel: "Main Incomer"
+    label:
+      suffix: " kWh"
+      decimalPoints: 1
